@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <!-- Ovde ubacujem embed code za font:
+     **Font family dodali smo nize u style, body-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="canvas1"></canvas>
+    <div class="main-menu" id="difficulty">
+      <h1>Select difficulty:</h1>
+      <button class="btn" id="btn-easy">EASY</button>
+      <button class="btn" id="btn-medium">MEDIUM</button>
+      <button class="btn" id="btn-hard">HARD</button>
+    </div>
+    <div class="main-menu hidden" id="ghost">
+      <h1>Ghost mode?</h1>
+      <button class="btn" id="btn-yes">YES</button>
+      <button class="btn" id="btn-no">NO</button>
+    </div>
+    <div class="ghost-countdown hidden" id="countdown">
+      <h2>3</h2>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="food.js"></script>
+    <script src="ghost.js"></script>
+    <script src="snake.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

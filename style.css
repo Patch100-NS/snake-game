@@ -1,0 +1,64 @@
+body {
+  background: black;
+  font-family: 'Press Start 2P', system-ui;
+}
+canvas {
+  border: 2px solid green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background: black;
+}
+
+.main-menu {
+  border: 2px solid white;
+  position: absolute;
+  height: 200px;
+  width: 790px;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background: green;
+}
+
+#ghost {
+  height: 200px;
+  width: 425px;
+}
+
+.ghost-countdown {
+  position: absolute;
+  text-align: center;
+  color: red;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  border: 2px solid black;
+  display: inline-block;
+  background-color: var(--color-primary);
+  font-size: 1.4rem;
+  font-family: 'Press Start 2P', system-ui;
+  font-weight: 500;
+  align-content: center;
+  padding: 1.25rem 4.5rem;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
